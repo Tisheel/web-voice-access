@@ -1,0 +1,24 @@
+#mic {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    /* default color when not listening */
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 3;
+}
+
+#mic.active {
+    background-color: green;
+    /* color when listening */
+}
+
+#mic img {
+    width: 30px;
+}
